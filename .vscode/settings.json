@@ -10,7 +10,7 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.testing.pytestArgs": [
-        "./app/tests"
+        "tests"
     ],
     "coverage-gutters.showLineCoverage": true,
     "coverage-gutters.showRulerCoverage": true,
@@ -20,7 +20,7 @@
         "--config-file=./.vscode/mypy.ini"
     ],
     "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": false,
+    "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.flake8Args": [
         "--config=./.vscode/.flake8"
